@@ -1,0 +1,24 @@
+body {
+    font-family: Arial,  sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#chat{
+    height: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+#messageForm{
+    display: flex;
+}
+#messageInput{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.system-message{
+    color: #888;
+    font-style: italic;
+}
