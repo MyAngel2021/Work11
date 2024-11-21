@@ -1,24 +1,31 @@
 body {
-    font-family: Arial,  sans-serif;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 26px;
+  background-color: azure;
 }
-#chat{
-    height: 300px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    overflow-y: auto;
-    margin-bottom: 10px;
+#chat {
+  height: 300px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background-color: rgba(140, 172, 159, 0.199);
+  font-size: 20px;
 }
-#messageForm{
-    display: flex;
+#messageForm {
+  display: flex;
 }
-#messageInput{
-    flex-grow: 1;
-    margin-right: 10px;
+#messageInput {
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 26px;
 }
-.system-message{
-    color: #888;
-    font-style: italic;
+.system-message {
+  color: #888;
+  font-style: italic;
+  color: blue;
+  font-size: 24px;
 }
